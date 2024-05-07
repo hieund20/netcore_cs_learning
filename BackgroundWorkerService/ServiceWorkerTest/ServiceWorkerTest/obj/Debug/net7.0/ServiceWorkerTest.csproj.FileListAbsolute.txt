@@ -31,3 +31,4 @@ D:\cs_learning\BackgroundWorkerService\ServiceWorkerTest\ServiceWorkerTest\obj\D
 D:\cs_learning\BackgroundWorkerService\ServiceWorkerTest\ServiceWorkerTest\obj\Debug\net7.0\ServiceWorkerTest.pdb
 D:\cs_learning\BackgroundWorkerService\ServiceWorkerTest\ServiceWorkerTest\obj\Debug\net7.0\ServiceWorkerTest.genruntimeconfig.cache
 D:\cs_learning\BackgroundWorkerService\ServiceWorkerTest\ServiceWorkerTest\obj\Debug\net7.0\ref\ServiceWorkerTest.dll
+D:\cs_learning\BackgroundWorkerService\ServiceWorkerTest\ServiceWorkerTest\obj\Debug\net7.0\ServiceWorkerTest.sourcelink.json
