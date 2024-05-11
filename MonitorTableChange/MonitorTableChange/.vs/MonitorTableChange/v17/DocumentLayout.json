@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\services\\monitoreventbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\services\\monitoreventbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\models\\monitorevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\models\\monitorevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\sqlqueries\\sqlmonitortrigger.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\sqlqueries\\sqlmonitortrigger.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\data\\monitortablechangedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\data\\monitortablechangedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Program.cs",
+              "RelativeDocumentMoniker": "MonitorTableChange\\Program.cs",
+              "ToolTip": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Program.cs",
+              "RelativeToolTip": "MonitorTableChange\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:40:26.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MonitorEventBackgroundService.cs",
+              "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Services\\MonitorEventBackgroundService.cs",
+              "RelativeDocumentMoniker": "MonitorTableChange\\Services\\MonitorEventBackgroundService.cs",
+              "ToolTip": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Services\\MonitorEventBackgroundService.cs",
+              "RelativeToolTip": "MonitorTableChange\\Services\\MonitorEventBackgroundService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:31:08.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SQLMonitorTrigger.sql",
+              "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
+              "RelativeDocumentMoniker": "MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
+              "ToolTip": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
+              "RelativeToolTip": "MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-11T17:28:17.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MonitorTableChange\\Models\\Product.cs",
+              "ToolTip": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Models\\Product.cs",
+              "RelativeToolTip": "MonitorTableChange\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:29:18.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "MonitorTableChange\\Models\\Category.cs",
+              "ToolTip": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Models\\Category.cs",
+              "RelativeToolTip": "MonitorTableChange\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:28:59.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MonitorEvent.cs",
+              "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Models\\MonitorEvent.cs",
+              "RelativeDocumentMoniker": "MonitorTableChange\\Models\\MonitorEvent.cs",
+              "ToolTip": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Models\\MonitorEvent.cs",
+              "RelativeToolTip": "MonitorTableChange\\Models\\MonitorEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:28:49.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MonitorTableChangeDBContext.cs",
+              "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Data\\MonitorTableChangeDBContext.cs",
+              "RelativeDocumentMoniker": "MonitorTableChange\\Data\\MonitorTableChangeDBContext.cs",
+              "ToolTip": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Data\\MonitorTableChangeDBContext.cs",
+              "RelativeToolTip": "MonitorTableChange\\Data\\MonitorTableChangeDBContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:45:57.449Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 129,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:254354193:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|d:\\cs_learning\\backgroundworkerservice\\serviceworkertest\\serviceworkertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|solutionrelative:serviceworkertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|d:\\cs_learning\\backgroundworkerservice\\serviceworkertest\\serviceworkertest\\services\\consumescopedservicehostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|solutionrelative:serviceworkertest\\services\\consumescopedservicehostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|solutionrelative:serviceworkertest\\services\\scopedprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|d:\\cs_learning\\backgroundworkerservice\\serviceworkertest\\serviceworkertest\\services\\backgroundworkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|solutionrelative:serviceworkertest\\services\\backgroundworkerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|d:\\cs_learning\\backgroundworkerservice\\serviceworkertest\\serviceworkertest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|solutionrelative:serviceworkertest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|d:\\cs_learning\\backgroundworkerservice\\serviceworkertest\\serviceworkertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|solutionrelative:serviceworkertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|d:\\cs_learning\\backgroundworkerservice\\serviceworkertest\\serviceworkertest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|solutionrelative:serviceworkertest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|d:\\cs_learning\\backgroundworkerservice\\serviceworkertest\\serviceworkertest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|solutionrelative:serviceworkertest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEF52359-AEC6-4917-A779-F33D867AE6FD}|ServiceWorkerTest\\ServiceWorkerTest.csproj|d:\\cs_learning\\backgroundworkerservice\\serviceworkertest\\serviceworkertest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,42 +42,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ConsumeScopedServiceHostedService.cs",
               "DocumentMoniker": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\ServiceWorkerTest\\Services\\ConsumeScopedServiceHostedService.cs",
               "RelativeDocumentMoniker": "ServiceWorkerTest\\Services\\ConsumeScopedServiceHostedService.cs",
               "ToolTip": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\ServiceWorkerTest\\Services\\ConsumeScopedServiceHostedService.cs",
               "RelativeToolTip": "ServiceWorkerTest\\Services\\ConsumeScopedServiceHostedService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAwwCEAAAANAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wCEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T07:30:20.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ScopedProcessingService.cs",
               "DocumentMoniker": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\ServiceWorkerTest\\Services\\ScopedProcessingService.cs",
               "RelativeDocumentMoniker": "ServiceWorkerTest\\Services\\ScopedProcessingService.cs",
               "ToolTip": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\ServiceWorkerTest\\Services\\ScopedProcessingService.cs",
               "RelativeToolTip": "ServiceWorkerTest\\Services\\ScopedProcessingService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAA1wA0AAAAJAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBMAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T07:29:08.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BackgroundWorkerService.cs",
-              "DocumentMoniker": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\ServiceWorkerTest\\Services\\BackgroundWorkerService.cs",
-              "RelativeDocumentMoniker": "ServiceWorkerTest\\Services\\BackgroundWorkerService.cs",
-              "ToolTip": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\ServiceWorkerTest\\Services\\BackgroundWorkerService.cs",
-              "RelativeToolTip": "ServiceWorkerTest\\Services\\BackgroundWorkerService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBYAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:18:21.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T07:29:08.546Z"
             },
             {
               "$type": "Document",
@@ -93,12 +75,11 @@
               "RelativeToolTip": "ServiceWorkerTest\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:27:19.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T02:27:19.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\ServiceWorkerTest\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ServiceWorkerTest\\Controllers\\WeatherForecastController.cs",
@@ -106,25 +87,23 @@
               "RelativeToolTip": "ServiceWorkerTest\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:26:15.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T02:26:15.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\ServiceWorkerTest\\Program.cs",
               "RelativeDocumentMoniker": "ServiceWorkerTest\\Program.cs",
               "ToolTip": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\ServiceWorkerTest\\Program.cs",
               "RelativeToolTip": "ServiceWorkerTest\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:16:51.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T02:16:51.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\cs_learning\\BackgroundWorkerService\\ServiceWorkerTest\\ServiceWorkerTest\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ServiceWorkerTest\\Properties\\launchSettings.json",
@@ -132,8 +111,17 @@
               "RelativeToolTip": "ServiceWorkerTest\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-07T02:26:52.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T02:26:52.097Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 129,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:254354193:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
             }
           ]
         }
