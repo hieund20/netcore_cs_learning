@@ -1,0 +1,15 @@
+D:\cs_learning\DSA\DSA\DSA\bin\Debug\net7.0\DSA.exe
+D:\cs_learning\DSA\DSA\DSA\bin\Debug\net7.0\DSA.deps.json
+D:\cs_learning\DSA\DSA\DSA\bin\Debug\net7.0\DSA.runtimeconfig.json
+D:\cs_learning\DSA\DSA\DSA\bin\Debug\net7.0\DSA.dll
+D:\cs_learning\DSA\DSA\DSA\bin\Debug\net7.0\DSA.pdb
+D:\cs_learning\DSA\DSA\DSA\obj\Debug\net7.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+D:\cs_learning\DSA\DSA\DSA\obj\Debug\net7.0\DSA.AssemblyInfoInputs.cache
+D:\cs_learning\DSA\DSA\DSA\obj\Debug\net7.0\DSA.AssemblyInfo.cs
+D:\cs_learning\DSA\DSA\DSA\obj\Debug\net7.0\DSA.csproj.CoreCompileInputs.cache
+D:\cs_learning\DSA\DSA\DSA\obj\Debug\net7.0\DSA.sourcelink.json
+D:\cs_learning\DSA\DSA\DSA\obj\Debug\net7.0\DSA.dll
+D:\cs_learning\DSA\DSA\DSA\obj\Debug\net7.0\refint\DSA.dll
+D:\cs_learning\DSA\DSA\DSA\obj\Debug\net7.0\DSA.pdb
+D:\cs_learning\DSA\DSA\DSA\obj\Debug\net7.0\DSA.genruntimeconfig.cache
+D:\cs_learning\DSA\DSA\DSA\obj\Debug\net7.0\ref\DSA.dll
