@@ -3,11 +3,14 @@ namespace DSA.Array
 {
     public class _1295_Find_Numbers_with_Even_Number_of_Digits
     {
+        #region Ctors
         public _1295_Find_Numbers_with_Even_Number_of_Digits()
         {
             
         }
+        #endregion
 
+        #region Methods
         public int FindNumbers(int[] nums)
         {
             int bienDem = 0;
@@ -37,5 +40,6 @@ namespace DSA.Array
 
             return soChuSo;
         }
+        #endregion
     }
 }

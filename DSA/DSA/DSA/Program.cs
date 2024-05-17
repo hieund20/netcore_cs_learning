@@ -14,7 +14,11 @@ public class Program {
         #endregion
 
         #region 88 Merge Sorted Array
+        int[] nums1 = { 2, 3, 4, 5, 0, 0, 0 };
+        int[] nums2 = { 3, 0, 6 };
 
+        _88_Merge_Sorted_Array merge_Sorted_Array = new _88_Merge_Sorted_Array();
+        merge_Sorted_Array.Merge(nums1, 4, nums2, 3);
         #endregion
     }
 }
