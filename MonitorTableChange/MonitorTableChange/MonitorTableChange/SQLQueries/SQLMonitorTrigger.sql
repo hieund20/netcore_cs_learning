@@ -1,41 +1,75 @@
 ﻿--Trigger Query
-CREATE TRIGGER tr_AfterChangeProductTable
+CREATE TRIGGER tr_AfterInsertProduct
 ON Products
-AFTER INSERT, UPDATE, DELETE
+AFTER INSERT
+AS
+BEGIN
+    INSERT INTO MonitorEvents (MonitorEventId, TableId, TableName, TypeChange, CreateDate)
+    SELECT NEWID(), ProductId, 'Products', 'INSERT', GETDATE()
+    FROM inserted;
+END;
+
+CREATE TRIGGER tr_AfterUpdateProduct
+ON Products
+AFTER UPDATE
 AS
 BEGIN
     SET NOCOUNT ON;
 
-    DECLARE @TypeChange NVARCHAR(10);
-
-    IF EXISTS(SELECT * FROM inserted)
-    BEGIN
-        SET @TypeChange = 'INSERT';
-
-        INSERT INTO MonitorEvents (MonitorEventId, TableId, TableName, TypeChange, CreateDate)
-        SELECT NEWID(), ProductId, 'Products', @TypeChange, GETDATE()
-        FROM inserted;
-    END;
-
-    IF EXISTS(SELECT * FROM deleted)
-    BEGIN
-        IF @TypeChange IS NULL OR @TypeChange = 'INSERT'
-        BEGIN
-            SET @TypeChange = 'DELETE';
-
-            INSERT INTO MonitorEvents (MonitorEventId, TableId, TableName, TypeChange, CreateDate)
-            SELECT NEWID(), ProductId, 'Products', @TypeChange, GETDATE()
-            FROM deleted;
-        END
-        ELSE
-        BEGIN --UPDATE đang bị duplicate ROW trong MONITOREVENTS table
-            INSERT INTO MonitorEvents (MonitorEventId, TableId, TableName, TypeChange, CreateDate)
-            SELECT NEWID(), d.ProductId, 'Products', 'UPDATE', GETDATE()
-            FROM deleted d
-            INNER JOIN inserted i ON d.ProductId = i.ProductId;
-        END;
-    END;
+    INSERT INTO MonitorEvents (MonitorEventId, TableId, TableName, TypeChange, CreateDate)
+    SELECT NEWID(), i.ProductId, 'Products', 'UPDATE', GETDATE()
+    FROM inserted i
+    INNER JOIN deleted d ON i.ProductId = d.ProductId;
 END;
+
+CREATE TRIGGER tr_AfterDeleteProduct
+ON Products
+AFTER DELETE
+AS
+BEGIN
+    INSERT INTO MonitorEvents (MonitorEventId, TableId, TableName, TypeChange, CreateDate)
+    SELECT NEWID(), ProductId, 'Products', 'DELETE', GETDATE()
+    FROM deleted;
+END;
+
+-- Không nên viết trigger kiểu này, nên tách ra làm 3 trigger như trên, câu query càng ngắn càng tốt
+--CREATE TRIGGER tr_AfterChangeProductTable
+--ON Products
+--AFTER INSERT, UPDATE, DELETE
+--AS
+--BEGIN
+--    SET NOCOUNT ON;
+
+--    DECLARE @TypeChange NVARCHAR(10);
+
+--    IF EXISTS(SELECT * FROM inserted)
+--    BEGIN
+--        SET @TypeChange = 'INSERT';
+
+--        INSERT INTO MonitorEvents (MonitorEventId, TableId, TableName, TypeChange, CreateDate)
+--        SELECT NEWID(), ProductId, 'Products', @TypeChange, GETDATE()
+--        FROM inserted;
+--    END;
+
+--    IF EXISTS(SELECT * FROM deleted)
+--    BEGIN
+--        IF @TypeChange IS NULL OR @TypeChange = 'INSERT'
+--        BEGIN
+--            SET @TypeChange = 'DELETE';
+
+--            INSERT INTO MonitorEvents (MonitorEventId, TableId, TableName, TypeChange, CreateDate)
+--            SELECT NEWID(), ProductId, 'Products', @TypeChange, GETDATE()
+--            FROM deleted;
+--        END
+--        ELSE
+--        BEGIN --UPDATE đang bị duplicate ROW trong MONITOREVENTS table
+--            INSERT INTO MonitorEvents (MonitorEventId, TableId, TableName, TypeChange, CreateDate)
+--            SELECT NEWID(), d.ProductId, 'Products', 'UPDATE', GETDATE()
+--            FROM deleted d
+--            INNER JOIN inserted i ON d.ProductId = i.ProductId;
+--        END;
+--    END;
+--END;
 
 --Category Queries
 INSERT INTO Categories (CategoryID, CategoryName, Description) 

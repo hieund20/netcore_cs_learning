@@ -19,6 +19,7 @@ public class Program {
 
         _88_Merge_Sorted_Array merge_Sorted_Array = new _88_Merge_Sorted_Array();
         merge_Sorted_Array.Merge(nums1, 4, nums2, 3);
+        Console.WriteLine("DONE");
         #endregion
     }
 }
