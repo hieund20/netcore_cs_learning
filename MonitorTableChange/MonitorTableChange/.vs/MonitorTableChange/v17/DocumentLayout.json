@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\sqlqueries\\sqlmonitortrigger.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\sqlqueries\\sqlmonitortrigger.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\services\\monitoreventbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\services\\monitoreventbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,6 +33,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\data\\monitortablechangedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\data\\monitortablechangedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|d:\\cs_learning\\monitortablechange\\monitortablechange\\monitortablechange\\sqlqueries\\sqlmonitortrigger.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A0EFCEA0-490C-42BB-B8C3-69A06D0813B8}|MonitorTableChange\\MonitorTableChange.csproj|solutionrelative:monitortablechange\\sqlqueries\\sqlmonitortrigger.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +54,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "SQLMonitorTrigger.sql ",
+              "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
+              "RelativeDocumentMoniker": "MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
+              "ToolTip": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
+              "RelativeToolTip": "MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-18T08:53:16.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Program.cs",
               "RelativeDocumentMoniker": "MonitorTableChange\\Program.cs",
@@ -59,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MonitorEventBackgroundService.cs",
               "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Services\\MonitorEventBackgroundService.cs",
               "RelativeDocumentMoniker": "MonitorTableChange\\Services\\MonitorEventBackgroundService.cs",
@@ -72,20 +92,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SQLMonitorTrigger.sql",
               "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
               "RelativeDocumentMoniker": "MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
               "ToolTip": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
               "RelativeToolTip": "MonitorTableChange\\SQLQueries\\SQLMonitorTrigger.sql",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-05-11T17:28:17.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Models\\Product.cs",
               "RelativeDocumentMoniker": "MonitorTableChange\\Models\\Product.cs",
@@ -98,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Models\\Category.cs",
               "RelativeDocumentMoniker": "MonitorTableChange\\Models\\Category.cs",
@@ -111,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MonitorEvent.cs",
               "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Models\\MonitorEvent.cs",
               "RelativeDocumentMoniker": "MonitorTableChange\\Models\\MonitorEvent.cs",
@@ -124,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MonitorTableChangeDBContext.cs",
               "DocumentMoniker": "D:\\cs_learning\\MonitorTableChange\\MonitorTableChange\\MonitorTableChange\\Data\\MonitorTableChangeDBContext.cs",
               "RelativeDocumentMoniker": "MonitorTableChange\\Data\\MonitorTableChangeDBContext.cs",
