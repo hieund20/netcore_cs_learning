@@ -87,10 +87,69 @@ public class Program
 
         #region Selecting a single element
         Console.WriteLine("FIRST");
+        var firstProductHasOddPrice = products.First(x => x.Price % 2 == 0);
+        Console.WriteLine($"{firstProductHasOddPrice.Name} - {firstProductHasOddPrice.Price}");
 
-        Console.WriteLine("LAST"); 
+        Console.WriteLine("FIRST OR DEFAULT");
+        var productHasOverPrice100 = products.FirstOrDefault(x => x.Price > 100);
+        if (productHasOverPrice100 != null)
+        {
+            Console.WriteLine($"{productHasOverPrice100.Name} - {productHasOverPrice100.Price}");
+        }
+        else
+        {
+            Console.WriteLine("Can not find product has price is over than 100");
+        }
+        
+        Console.WriteLine("LAST");
+        var lastProductHasOddPrice = products.Last(x => x.Price % 2 == 0);
+        Console.WriteLine($"{lastProductHasOddPrice.Name} - {lastProductHasOddPrice.Price}");
+
+        Console.WriteLine("LAST OR DEFAULT");
+        var lastProductHasOverPrice100 = products.LastOrDefault(x => x.Price > 100);
+        if (lastProductHasOverPrice100 != null)
+        {
+            Console.WriteLine($"{lastProductHasOverPrice100.Name} - {lastProductHasOverPrice100.Price}");
+        }
+        else
+        {
+            Console.WriteLine("Can not find product has price is over than 100");
+        }
+
 
         Console.WriteLine("SINGLE");
+        var singleProduct = products.Single(x => x.Name == "Iphone 11");
+        Console.WriteLine(singleProduct.Name);
+
+        var singleProductDefault = products.SingleOrDefault(x => x.Name == "Samsung");
+        if (singleProductDefault != null)
+        {
+            Console.WriteLine(singleProductDefault.Name);
+        }
+        else
+        {
+            Console.WriteLine("Can not find product has name is Samsung");
+        }
+        #endregion
+
+        #region Selecting specific elements
+        Console.WriteLine("DISTINCT");
+
+        Console.WriteLine("DISTINCT BY");
+
+        Console.WriteLine("TAKE");
+
+        Console.WriteLine("TAKE WHILE");
+
+        Console.WriteLine("TAKE LAST");
+
+        Console.WriteLine("SKIP");
+
+        Console.WriteLine("SKIP WHILE");
+
+        Console.WriteLine("SKIP LAST");
+
+        Console.WriteLine("CHUNK"); 
         #endregion
     }
 }
