@@ -14,7 +14,7 @@ public class Program
             new Product(2, "Iphone 12", "congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus", 85, new string[] { "Grey", "Red"}, 1),
             new Product(3, "Iphone X", "nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque", 2, new string[] { "Green", "Gray"}, 1),
             new Product(4, "Ipad Gen 9", "at turpis a pede posuere nonummy integer non velit donec diam neque", 46, new string[] {"White", "Red"}, 2),
-            new Product(5, "Ipad Air", "in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer", 78, new string[] { "Green", "Red"}, 2),
+            new Product(5, "Ipad Air", "in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer", 46, new string[] { "Green", "Red"}, 2),
         };
 
         var categories = new List<Category>()
@@ -121,6 +121,7 @@ public class Program
         var singleProduct = products.Single(x => x.Name == "Iphone 11");
         Console.WriteLine(singleProduct.Name);
 
+        Console.WriteLine("SINGLE OR DEFAULT");
         var singleProductDefault = products.SingleOrDefault(x => x.Name == "Samsung");
         if (singleProductDefault != null)
         {
@@ -134,22 +135,170 @@ public class Program
 
         #region Selecting specific elements
         Console.WriteLine("DISTINCT");
+        int[] scores = { 1, 2, 2, 3, 4 };
+        var uniqueScores = scores.Distinct();
+        foreach ( var score in uniqueScores )
+        {
+            Console.WriteLine(score);
+        }
 
         Console.WriteLine("DISTINCT BY");
+        var productDistinctByPrice = products.DistinctBy(x => x.Price);
+        foreach (var product in productDistinctByPrice)
+        {
+            Console.WriteLine($"{product.Name} - {product.Price}$");
+        }    
+
 
         Console.WriteLine("TAKE");
+        foreach (var product in products.Take(3))
+        {
+            Console.WriteLine(product.Name);
+        }
 
         Console.WriteLine("TAKE WHILE");
+        foreach (var product in products.TakeWhile(x => x.Price > 50))
+        {
+            Console.WriteLine($"{product.Name} - {product.Price}$");
+        }
 
         Console.WriteLine("TAKE LAST");
+        foreach (var product in products.TakeLast(3))
+        {
+            Console.WriteLine($"{product.Name} - {product.Price}$");
+        }
 
         Console.WriteLine("SKIP");
+        foreach (var product in products.Skip(3))
+        {
+            Console.WriteLine(product.Name);
+        }
 
         Console.WriteLine("SKIP WHILE");
+        foreach (var product in products.SkipWhile(x => x.Price > 50))
+        {
+            Console.WriteLine($"{product.Name} - {product.Price}$");
+        }    
 
         Console.WriteLine("SKIP LAST");
+        foreach (var product in products.SkipLast(3))
+        {
+            Console.WriteLine($"{product.Name} - {product.Price}$");
+        }
 
-        Console.WriteLine("CHUNK"); 
+        Console.WriteLine("CHUNK");
+        foreach (var item in products.Chunk(2))
+        {
+            Console.WriteLine($"");
+        }
+        #endregion
+
+        #region Checking if an element contained in a sequence
+        Console.WriteLine("ANY");
+        if (products.Any(x => x.Price > 100))
+        {
+            Console.WriteLine("There are a few products that cost more than 100");
+        }
+        else
+        {
+            Console.WriteLine("All product's price is less than 100");
+        }
+
+        Console.WriteLine("ALL");
+        if (products.All(x => x.Price > 100))
+        {
+            Console.WriteLine("All product's price is over than 100");
+        }
+        else
+        {
+            Console.WriteLine("There are a few products that cost more than 100");
+        }
+
+        Console.WriteLine("CONTAINS");
+        Product productFind = new Product(1); //Only need ID
+        if (products.Contains(productFind, new ProductComparer()))
+        {
+            Console.WriteLine(products.Where(x => x.ID == productFind.ID).Select(x => x.Name).First());
+        }
+        else
+        {
+            Console.WriteLine("Not found");
+        }
+        #endregion
+
+        #region Grouping data
+        Console.WriteLine("GROUP BY");
+        foreach (var group in products.GroupBy(x => x.CategoryId))
+        {
+            Console.WriteLine(group.Key + ":");
+            foreach (var product in products)
+            {
+                Console.WriteLine("- " + product.Name + " (" + product.Price + ")");
+            }
+            Console.WriteLine();
+        }
+        #endregion
+
+        #region Aggregating data
+        Console.WriteLine("COUNT");
+        Console.WriteLine($"{products.Count(x => x.Price > 50)}");
+
+        Console.WriteLine("AVERAGE");
+        Console.WriteLine($"{products.Average(x => x.Price)}");
+
+        Console.WriteLine("SUM");
+        Console.WriteLine($"{products.Sum(x => x.Price)}");
+
+        Console.WriteLine("MIN");
+        Console.WriteLine($"{products.Min(x => x.Price)}");
+
+        Console.WriteLine("MIN BY");
+        Console.WriteLine($"{products.MinBy(x => x.Price).Name}");
+
+        Console.WriteLine("MAX");
+        Console.WriteLine($"{products.Max(x => x.Price)}");
+
+        Console.WriteLine("MAX BY");
+        Console.WriteLine($"{products.MaxBy(x => x.Price).Name}");
+
+        //Console.WriteLine("AGGREGATE");
+        //Console.WriteLine($"{products.MaxBy(x => x.Price).Name}");
+        #endregion
+
+        #region Iterating elements
+        Console.WriteLine("FOREACH");
+        products.ForEach(x => Console.WriteLine(x.Name));
+        #endregion
+
+        #region Joining sequences
+        Console.WriteLine("JOIN");
+        var categoryProducts = products.Join(
+            categories,
+            product => product.CategoryId,
+            category => category.ID,
+            (product, category) => new
+                {
+                    productName = product.Name,
+                    product.Price,
+                    categoryName = category.Name
+                }
+            );
+
+        foreach (var item in categoryProducts)
+        {
+            Console.WriteLine($"{item.productName} - {item.Price} - {item.categoryName}");
+        }
+        #endregion
+
+        #region Set operations
+
+        #endregion
+
+        #region Range, Repeat, and Reverse
+
+        #endregion
+
+        #region Parallel LINQ & IAsyncEnumerable<T>
         #endregion
     }
 }

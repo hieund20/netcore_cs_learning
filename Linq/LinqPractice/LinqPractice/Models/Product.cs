@@ -24,5 +24,10 @@ namespace LinqPractice.Models
             Colors = colors;
             CategoryId = categoryId;
         }
+
+        public Product(int id)
+        {
+            ID = id;
+        }
     }
 }

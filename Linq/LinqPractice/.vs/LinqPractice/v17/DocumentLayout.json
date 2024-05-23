@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|solutionrelative:linqpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|d:\\cs_learning\\linq\\linqpractice\\linqpractice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|solutionrelative:linqpractice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|d:\\cs_learning\\linq\\linqpractice\\linqpractice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|solutionrelative:linqpractice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|d:\\cs_learning\\linq\\linqpractice\\linqpractice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|solutionrelative:linqpractice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|d:\\cs_learning\\linq\\linqpractice\\linqpractice\\models\\productcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|solutionrelative:linqpractice\\models\\productcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "LinqPractice\\Models\\Product.cs",
+              "ToolTip": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Models\\Product.cs",
+              "RelativeToolTip": "LinqPractice\\Models\\Product.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:57:39.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductComparer.cs",
+              "DocumentMoniker": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Models\\ProductComparer.cs",
+              "RelativeDocumentMoniker": "LinqPractice\\Models\\ProductComparer.cs",
+              "ToolTip": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Models\\ProductComparer.cs",
+              "RelativeToolTip": "LinqPractice\\Models\\ProductComparer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:53:54.765Z"
             },
             {
               "$type": "Document",
@@ -36,14 +64,14 @@
               "RelativeDocumentMoniker": "LinqPractice\\Program.cs",
               "ToolTip": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Program.cs",
               "RelativeToolTip": "LinqPractice\\Program.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAgwHcAAAAJAAAA",
+              "ViewState": "AQIAAA8BAAAAAAAAAAAAABEBAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T09:34:22.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Models\\Category.cs",
               "RelativeDocumentMoniker": "LinqPractice\\Models\\Category.cs",
@@ -51,21 +79,7 @@
               "RelativeToolTip": "LinqPractice\\Models\\Category.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwBAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T09:30:25.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "LinqPractice\\Models\\Product.cs",
-              "ToolTip": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Models\\Product.cs",
-              "RelativeToolTip": "LinqPractice\\Models\\Product.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAuwA8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T09:26:17.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T09:30:25.843Z"
             }
           ]
         },
