@@ -29,5 +29,11 @@ namespace LinqPractice.Models
         {
             ID = id;
         }
+
+        public Product(int id, string name)
+        {
+            ID = id;
+            Name= name;
+        }
     }
 }

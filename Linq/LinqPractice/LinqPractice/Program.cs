@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LinqPractice.Models;
+using System;
+using System.Xml.Linq;
 
 public class Program
 {
@@ -291,6 +293,56 @@ public class Program
         #endregion
 
         #region Set operations
+        #region SequenceEqual 
+        Console.WriteLine("SequenceEqual");
+        var num1 = new List<int> { 1, 2, 3 };
+        var num2 = new List<int> { 1, 2, 3 };
+
+        Console.WriteLine($"Simple SequenceEqual result {num1.SequenceEqual(num2)}");
+
+        var products1 = new List<Product>
+        {
+           new Product(1, "John Doe"),
+           new Product(2, "Jane Doe")
+        };
+
+        var products2 = new List<Product>
+        {
+            new Product(1, "John Doe"),
+            new Product(2, "Jane Doe")
+        };
+
+        var isEqual = products1.SequenceEqual(
+            products2,
+            new ProductComparer()
+        );
+
+        Console.WriteLine($"Object SequenceEqual result {isEqual}");
+        #endregion
+
+        #region Union
+
+        #endregion
+
+        #region UnionBy
+
+        #endregion
+
+        #region Except
+
+        #endregion
+
+        #region ExceptBy
+
+        #endregion
+
+        #region Intersect
+
+        #endregion
+
+        #region IntersectBy
+
+        #endregion
 
         #endregion
 
