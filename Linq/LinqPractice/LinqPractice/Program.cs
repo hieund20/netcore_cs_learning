@@ -302,14 +302,16 @@ public class Program
 
         var products1 = new List<Product>
         {
-           new Product(1, "John Doe"),
-           new Product(2, "Jane Doe")
+           new Product(1, "John Terry"),
+           new Product(2, "Wayne Rooney")
         };
 
         var products2 = new List<Product>
         {
-            new Product(1, "John Doe"),
-            new Product(2, "Jane Doe")
+            new Product(1, "John Terry"),
+            new Product(2, "Wayne Rooney"),
+            new Product(3, "Romero Lukaku"),
+            new Product(4, "Jack Grealish"),
         };
 
         var isEqual = products1.SequenceEqual(
@@ -320,30 +322,53 @@ public class Program
         Console.WriteLine($"Object SequenceEqual result {isEqual}");
         #endregion
 
-        #region Union
-
+        #region Union (Hội)
+        Console.WriteLine("UNION");
+        foreach (var item in products1.Union(products2))
+        {
+            Console.WriteLine($"{item.ID} - {item.Name}");
+        }
         #endregion
 
         #region UnionBy
-
+        Console.WriteLine("UNION BY");
+        foreach (var item in products1.UnionBy(products2, x => x.ID))
+        {
+            Console.WriteLine($"{item.ID} - {item.Name}");
+        }
         #endregion
 
         #region Except
-
+        Console.WriteLine("EXCEPT");
+        foreach (var item in products1.Except(products2, new ProductComparer()))
+        {
+            Console.WriteLine($"{item.ID} - {item.Name}");
+        }
         #endregion
 
         #region ExceptBy
-
+        Console.WriteLine("EXCEPT BY");
+        foreach (var item in products1.ExceptBy(products2.Select(x => x.ID), x => x.ID))
+        {
+            Console.WriteLine($"{item.ID} - {item.Name}");
+        }
         #endregion
 
-        #region Intersect
-
+        #region Intersect (Giao)
+        Console.WriteLine("INTERSECT");
+        foreach (var item in products1.Intersect(products2, new ProductComparer()))
+        {
+            Console.WriteLine($"{item.ID} - {item.Name}");
+        }
         #endregion
 
         #region IntersectBy
-
+        Console.WriteLine("INTERSECT BY");
+        foreach (var item in products1.IntersectBy(products2.Select(x => x.ID), x => x.ID))
+        {
+            Console.WriteLine($"{item.ID} - {item.Name}");
+        }
         #endregion
-
         #endregion
 
         #region Range, Repeat, and Reverse

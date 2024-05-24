@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|d:\\cs_learning\\linq\\linqpractice\\linqpractice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|solutionrelative:linqpractice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|d:\\cs_learning\\linq\\linqpractice\\linqpractice\\models\\productcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F841CCC5-2291-41B2-9B21-EA7D05C7A5AD}|LinqPractice\\LinqPractice.csproj|solutionrelative:linqpractice\\models\\productcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +38,7 @@
               "RelativeToolTip": "LinqPractice\\Models\\Product.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAcwCAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T08:57:39.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductComparer.cs",
-              "DocumentMoniker": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Models\\ProductComparer.cs",
-              "RelativeDocumentMoniker": "LinqPractice\\Models\\ProductComparer.cs",
-              "ToolTip": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Models\\ProductComparer.cs",
-              "RelativeToolTip": "LinqPractice\\Models\\ProductComparer.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T08:53:54.765Z"
+              "WhenOpened": "2024-05-23T08:57:39.419Z"
             },
             {
               "$type": "Document",
@@ -65,7 +48,7 @@
               "RelativeDocumentMoniker": "LinqPractice\\Program.cs",
               "ToolTip": "D:\\cs_learning\\Linq\\LinqPractice\\LinqPractice\\Program.cs",
               "RelativeToolTip": "LinqPractice\\Program.cs",
-              "ViewState": "AQIAADYBAAAAAAAAAAAmwDgBAAAAAAAA",
+              "ViewState": "AQIAAEsBAAAAAAAAAAArwG4BAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T09:34:22.149Z",
               "EditorCaption": ""
