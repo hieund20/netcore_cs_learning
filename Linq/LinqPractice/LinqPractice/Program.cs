@@ -372,7 +372,25 @@ public class Program
         #endregion
 
         #region Range, Repeat, and Reverse
+        Console.WriteLine("RANGE");
+        foreach (var item in Enumerable.Range(0, 5))
+        {
+            Console.WriteLine($"{item}");        
+        }
 
+        Console.WriteLine("REPEAT");
+        var numbers = new List<int>() { 1, 2, 3 };
+        //Hoặc int[] numbers = new int[] { 1, 2, 3 }; 
+        foreach (var item in Enumerable.Reverse(numbers))
+        {
+            Console.WriteLine($"{item}");
+        }
+
+        Console.WriteLine("REVERSE");
+        foreach (var item in Enumerable.Repeat("Hello", 3))
+        {
+            Console.WriteLine($"{item}");
+        }    
         #endregion
 
         #region Parallel LINQ & IAsyncEnumerable<T>
